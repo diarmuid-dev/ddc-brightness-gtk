@@ -10,3 +10,9 @@ To run the program cd into the same directory as the program and run the command
 `sudo python3 ddc.py`
 
 The program must be run in sudo mode or else the brightness of the monitor will not change.
+
+To make the program easier to use, add this line into your /home/.bashrc file:
+  
+`alias ddc='sudo python3 PATH-TO-DDC.PY/ddc.py'`
+ 
+Now, you can simply type the command `ddc` to run the program
